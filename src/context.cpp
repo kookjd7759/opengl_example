@@ -48,7 +48,7 @@ bool Context::Init() {
         return false;
     SPDLOG_INFO("program id: {}", m_program->Get());
 
-    glClearColor(0.1f, 0.2f, 0.3f, 0.0f);
+    glClearColor(0.0f, 0.5f, 0.5f, 0.0f);
 
     return true;
 }
