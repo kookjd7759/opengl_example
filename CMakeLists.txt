@@ -4,7 +4,7 @@ set(PROJECT_NAME opengl_example)
 set(CMAKE_CXX_STANDARD 17)
 
 set(WINDOW_NAME "opengl_example")
-set(WINDOW_WIDTH 920)
+set(WINDOW_WIDTH 960)
 set(WINDOW_HEIGHT 540)
 
 project(${PROJECT_NAME})
