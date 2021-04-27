@@ -96,7 +96,7 @@ int main(int argc, const char** argv) {
 
     auto context = Context::Create();
     if (!context) {
-        SPDLOG_ERROR("failed to create cosntext");
+        SPDLOG_ERROR("failed to create context");
         glfwTerminate();
         return -1;
     }
